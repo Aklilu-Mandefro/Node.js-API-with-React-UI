@@ -1,4 +1,4 @@
-# Basic CRUD App with Node + React
+#  CRUD  Node.js API + React UI
 
 This example app shows how to create a Node.js API and display its data with a React UI. 
 
