@@ -1,6 +1,6 @@
 # Basic CRUD App with Node + React
 
-This example app shows how to create a Node.js API and display its data with a React UI. To follow along step-by-step, [check out the blog post](https://developer.okta.com/blog/2018/07/10/build-a-basic-crud-app-with-node-and-react).
+This example app shows how to create a Node.js API and display its data with a React UI. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
@@ -57,7 +57,7 @@ This example uses the following libraries provided by Okta:
 
 ## Help
 
-Please [raise an issue](https://github.com/oktadeveloper/okta-react-node-example/issues) if you find a problem with the example application, or visit our [Okta Developer Forums](https://devforum.okta.com/).
+Please [raise an issue](https://github.com/Aklilu-Mandefro/Node.js-API-with-React-UI/issues) if you find a problem with the example application.
 
 ## License
 
