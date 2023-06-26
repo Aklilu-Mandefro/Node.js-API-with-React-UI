@@ -1,0 +1,53 @@
+{
+  "name": "okta-node-react-example",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.5.1",
+    "@material-ui/icons": "^4.5.1",
+    "@okta/jwt-verifier": "2.1.0",
+    "@okta/okta-react": "^3.0.8",
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "dotenv": "8.2.0",
+    "finale-rest": "1.0.6",
+    "express": "4.17.1",
+    "final-form": "^4.8.3",
+    "lodash": "^4.17.19",
+    "moment": "^2.22.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-final-form": "^6.3.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.2.0",
+    "recompose": "^0.30.0",
+    "sequelize": "6.6.2",
+    "sqlite3": "5.0.2",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "npm-run-all --parallel watch:server start:web",
+    "start:web": "react-scripts start",
+    "start:server": "node src/server",
+    "watch:server": "nodemon --watch src/server src/server",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8",
+    "npm-run-all": "4.1.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
